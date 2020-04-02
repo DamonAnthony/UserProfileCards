@@ -1,3 +1,7 @@
+body{
+    background-color: #eeeeee;
+}
+
 .nav_bar{
     list-style-type: none;
     margin: 0;
@@ -22,11 +26,15 @@
 }
 
 .cards{
-    margin: 80px;
+    margin: 80px auto;
     max-width: 960px;
     text-align: center;
 }
-
+.card_link{
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+}
 .card{
     display: inline-block;
     margin: 8px;
@@ -37,16 +45,19 @@
 
 .card_image{
     max-width: 300px;
+    object-fit: contain;
 }
 
 .card_image_slot{
     background-color: white;
+    width: 300px;
     height: 0;
     padding-bottom: 75%;
 }
 
 .card_info{
-
+    color: black;
+    width: 300px;
     background-color: white;
     padding: 6px 15px 10px;
     position: relative;
@@ -55,6 +66,9 @@
 .card_info > p{
     display: block;
     font-size: 18px;
-    font-weight: 600;
+}
+
+.new_user_button{
+    
 }
 
