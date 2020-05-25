@@ -89,11 +89,16 @@ body{
     border-radius: 5px;
 }
 
-.delete_btn{
+.delete_modal {
     display: none;
-    z-index: -1;
-}
-
-.card_image:hover + .delete_btn, .delete_btn:hover{
-    display: inline-block;
-}
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    z-index: 9999;
+} 
